@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
 int main() {
 	int n, m, cm, l, cl, a;
