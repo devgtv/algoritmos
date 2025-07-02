@@ -7,9 +7,8 @@ int main() {
     cin >> A >> B;
     
     // Calculando a soma
-    SOMA = A + B;
-    
-    
+    SOMA = A + B;    
+       
     cout << "SOMA = " << SOMA << endl;
     
     return 0;
