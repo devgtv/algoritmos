@@ -11,8 +11,5 @@ int main () {
 
     cout << lajesHorizontal * lajezVertical << endl;
 
-
-
-
     return 0;
 }

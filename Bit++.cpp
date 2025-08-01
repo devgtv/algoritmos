@@ -5,7 +5,6 @@ int main () {
     cin.tie(nullptr);
     int n;
     cin >> n;
-    
     int x = 0;
     for(int i = 0 ; i < n;i++) {
         string statements;
