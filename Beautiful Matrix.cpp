@@ -19,6 +19,6 @@ int main() {
     }
     int movimentos = abs(linha - 2) + abs(coluna - 2);
     cout << movimentos << endl;
-
+    //teste
     return 0;
 }
