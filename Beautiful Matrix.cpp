@@ -6,6 +6,8 @@ int abs(int x) {
 }
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int matriz[5][5];
     int linha = 0, coluna = 0;
     for (int i = 0; i < 5; ++i) {
