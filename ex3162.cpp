@@ -13,6 +13,8 @@ double CalcularDistancia(const vector<int>& a, const vector<int>& b) {
 }
 
 int main() {
+    ios::sync_with_stdio(false); 
+    cin.tie(nullptr); 
     int n;
     cin >> n;
 

@@ -24,6 +24,8 @@ void bfs(int inicio) {
 }
 
 int main() {
+	ios::sync_with_stdio(false); 
+    cin.tie(nullptr); 
 	int n,l;
 	cin >> n >> l;
 	for(int i = 0 ; i < l;i++) {

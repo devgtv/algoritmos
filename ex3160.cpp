@@ -5,6 +5,8 @@
 
 using namespace std;
 int main() {
+    ios::sync_with_stdio(false); 
+    cin.tie(nullptr); 
     string x;
     getline(cin, x);
     istringstream primeiro(x);
