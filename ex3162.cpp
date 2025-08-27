@@ -26,7 +26,7 @@ int main() {
         double MenorDistancia = 1e9; 
 
         for (int j = 0; j < n; ++j) {
-            
+            if (i == j) continue;
 
             double dist = CalcularDistancia(naves[i], naves[j]);
             if (dist < MenorDistancia) {
