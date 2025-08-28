@@ -7,8 +7,8 @@ int main () {
     cin >> n;
     int m;
     cin >> m;
+    vector<vector<int>> metriz(n,vector<int>(m));
     
-    int metriz[n][m];
     
     
     
