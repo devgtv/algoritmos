@@ -8,7 +8,6 @@ int main() {
     cin >> n;
     string s;
     cin >> s;
-
     int aw = 0;
     int dw = 0;
     for(char c : s) {
