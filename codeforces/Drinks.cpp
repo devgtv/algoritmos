@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define int long long
 #define endl '\n'
-#define pi 3.14159
+
 
 using namespace std;
 
@@ -10,17 +10,17 @@ signed main () {
     cin.tie(nullptr);
     int n;
     cin >> n;
-    vector<int> bomba(n);
+    double soma = 0;
 
     for(int i = 0 ; i < n;i++) {
-        cin >> bomba[i];
+        double p;
+        cin >> p;
+        soma +=p;
     }
 
+    double resp = soma / n;
 
+    cout << fixed << setprecision(12) << resp << endl;
 
-
-    for(int i = 0 ; i < n;i++) {
-        
-    }
     return 0;
 }
