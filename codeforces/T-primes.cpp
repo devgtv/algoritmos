@@ -12,8 +12,8 @@ void crivo () {
         if(ehprimo[i]) {
             for(int j = i * i; j<=limite; j += i) {
                 ehprimo[j] = false;
+                }
             }
-        }
     }
 }
 signed main () {
